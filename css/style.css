@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Verdana, sans-serif;
+}
+
+header,
+.hero,
+.info {
+    background: #1f2937;
+    display: flex;
+    padding: 10px 125px 100px 125px;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1 1 auto;
+}
+
+header ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 25px;
+}
+
+header a,
+.hero-text-small {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.hero-left {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+
+.hero-text-large {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero button,
+.call-to-action button {
+    font-size: 14px;
+    background: #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.hero-right {
+    font-size: 14px;
+    color: black;
+    width: 365px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.info {
+    background: #ffff;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 125px 50px 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    background: #fff;
+    margin: 0 125px 0 125px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px 5px 10px;
+    flex: 0 0 auto;
+}
+
+.card-text {
+    padding: 10px 0 0 0;
+    text-align: center;
+}
