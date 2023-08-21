@@ -56,7 +56,8 @@
     text-decoration: none;
 }
 
-.hero-left-button {
+.hero-left-button,
+.call-button {
     margin: 10px 75px 0px 75px;
     font-size: 14px;
     background: #3882f6;
@@ -69,10 +70,13 @@
 
 .hero-right {
     display: flex;
+    flex-grow: 1;
 }
 
 .hero-image {
     margin: 50px 75px 0px 10px;
+    width: 400px;
+    height: 266px;
     box-shadow: 5px 5px 10px black;
 }
 
@@ -124,4 +128,55 @@
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
+}
+
+.call-container {
+    margin: 75px 75px 75px 75px;
+    display: flex;
+}
+
+.call-left,
+.call-right {
+    background: #3882f6;
+}
+
+.call-left {
+    padding: 25px 0px 25px 50px;
+}
+
+.call-right {
+    padding: 25px 10px 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.call-large-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.call-small-text {
+    font-size: 16px;
+    color: #f9faf8;
+    font-weight: 100px;
+}
+
+.call-button {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
 }
