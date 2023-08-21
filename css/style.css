@@ -108,9 +108,8 @@
 
 .quote-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 .quote-text {
@@ -138,6 +137,7 @@
 .call-left,
 .call-right {
     background: #3882f6;
+    flex: 1 1 auto;
 }
 
 .call-left {
@@ -145,9 +145,9 @@
 }
 
 .call-right {
-    padding: 25px 10px 25px 0px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .call-large-text {

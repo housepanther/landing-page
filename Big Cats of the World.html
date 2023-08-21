@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/landing-page/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Big Cats of the World</title>
+        
+    <link rel="stylesheet" href="./Big Cats of the World_files/style.css"></head>
+
+    <body>
+        <div class="header">
+            <div class="logo">Big Cat World</div>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/landing-page/#">Meow</a></li>
+                    <li><a href="http://127.0.0.1:5500/landing-page/#">Purr</a></li>
+                    <li><a href="http://127.0.0.1:5500/landing-page/#">Slow Blink</a></li>
+                </ul>
+            </div>
+        
+        <div class="hero">
+            <div class="hero-left">
+                <div class="hero-text-large">Welcome to Big Cat World</div>
+                <div class="hero-text-small">Big Cat World is a feline research, conservation, and captivity breeding NGO dedicated to preservation of our majestic wild cats. Click Sign Up for our newsletter.</div>
+                <button class="hero-left-button">Sign Up</button>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image">
+                    <img src="./Big Cats of the World_files/serval.jpg" alt="A picture of a Serval lying down" width="400" height="266">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <p class="title">Meet the Big Cats</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Big Cats of the World_files/lion.jpg" alt="A lion looking relaxed">
+                    <p class="card-text">This lions is looking regal. Thankfully the lion population is remaining relatively stable in Africa.</p>
+                </div>
+                <div class="card">
+                    <img src="./Big Cats of the World_files/tiger.jpg" alt="A tiger walking in the snow">
+                    <p>Tigers live in a variety of different ecosystems from the jungles to the mountains. Tiger populations in India and Bhutan are recovering!</p>
+                </div>
+                <div class="card">
+                    <img src="./Big Cats of the World_files/leopard.jpg" alt="A leopard lying in a tree">
+                    <p>Leopards can be found primarily in jungles and tropical climates. Unfortunately, they are on the endangered spieces list due to human encroachment and habitat reduction.</p>
+                </div>
+            </div>
+            <div class="quote-container">
+                <div class="quote-text">
+                    <p>I really think, taken as a whole, he is the most lovely animal I have ever seen; only seeing him in in the one way you can gain a full idea of his beauty, namely in his native forest, it is not an unmixed joy to a person, like myself, of a nervous disposition.</p>
+                    <div class="quote-attribution">
+                        <p>- Mary Kingsley</p>
+                    </div>
+                </div>
+            </div>
+            <div class="call-container">
+                <div class="call-left">
+                    <p class="call-large-text">Call to action!</p>
+                    <p class="call-small-text">Please consider donating to us to support our conservation efforts. $0.75 cents of every dollar helps these majestic cats.</p>
+                </div>
+                <div class="call-right">
+                    <button class="call-button">Donate</button> 
+                </div>
+            </div>
+        <div class="footer">
+            <div class="footer-text">
+                <p>Copyright © 2023 by Matthew Schwartz</p>
+            </div>
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>
