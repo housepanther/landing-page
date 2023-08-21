@@ -84,12 +84,12 @@
 }
 
 .card-container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 50px 50px 50x;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 50px;
 }
 
 .card {
@@ -100,4 +100,28 @@
     margin-bottom: 5px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 50px 125px 50px 125px;
+    flex: 1;
+}
+
+.quote-attribution {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
 }
