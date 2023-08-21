@@ -74,10 +74,30 @@
 .hero-image {
     margin: 50px 75px 0px 10px;
     box-shadow: 5px 5px 10px black;
-    /*width: 400px;
-    background: grey;
-    color: #e5e7eb;
+}
+
+.title {
+    margin: 50px 0 50px 0; 
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card-container {
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;*/
+    gap: 50px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+.card img {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
 }
